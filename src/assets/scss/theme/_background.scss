@@ -22,6 +22,9 @@ $value in $colors-soft {
     background: linear-gradient(0deg, var(--#{$prefix}soft-#{$color}), rgba(var(--#{$prefix}white-rgb), 0) 100%);
   }
 }
+.bg-gradient-bright-primary {
+  background: linear-gradient(90deg, #3A546B 0%, #5587A3 40%, #94BAC4 100%);
+}
 .bg-gradient-blend {
   background:linear-gradient(160deg, #FFB7B7 9%, #727272 100%), 
   radial-gradient(100% 100% at 30% 10%, #FFD1D1 0%, #260000 100%), 

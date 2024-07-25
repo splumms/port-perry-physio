@@ -51,7 +51,7 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 $white: #fff !default;
 $black: #000 !default;
 $gray-100: #fefefe !default;
-$gray-200: #f6f7f9 !default;
+$gray-200: #F0EFEF !default;
 $gray-300: #cacaca !default;
 $gray-400: #aab0bc !default;
 $gray-500: #959ca9 !default;
@@ -85,6 +85,7 @@ $colors: ("blue": $blue,
   "red": $red,
   "orange": $orange,
   "yellow": $yellow,
+  "lemon": $lemon,
   "green": $green,
   "leaf": $leaf,
   "aqua": $aqua,
@@ -97,6 +98,7 @@ $colors: ("blue": $blue,
   "primary": $primary,
 ) !default;
 $secondary: $gray-400 !default;
+$tertiary: #7FA6BC;
 $success: $green !default;
 $info: $aqua !default;
 $warning: $yellow !default;
@@ -296,18 +298,18 @@ $ash-soft:           tint-color($ash, 90.5%) !default;
 $gray-soft:          $border-light !default;
 
 //BG Pale
-$primary-pale:         tint-color($primary, 84%) !default;
-$blue-pale:            tint-color($blue, 84%) !default;
+$primary-pale:         tint-color($primary, 70%) !default;
+$blue-pale:            tint-color($blue, 70%) !default;
 $sky-pale:             tint-color($sky, 84%) !default;
 $purple-pale:          tint-color($purple, 84%) !default;
 $grape-pale:           tint-color($grape, 84%) !default;
 $violet-pale:          tint-color($violet, 84%) !default;
 $pink-pale:            tint-color($pink, 84%) !default;
 $fuchsia-pale:         tint-color($fuchsia, 84%) !default;
-$red-pale:             tint-color($red, 84%) !default;
+$red-pale:             tint-color($red, 70%) !default;
 $orange-pale:          tint-color($orange, 84%) !default;
-$yellow-pale:          tint-color($yellow, 84%) !default;
-$green-pale:           tint-color($green, 84%) !default;
+$yellow-pale:          tint-color($yellow, 70%) !default;
+$green-pale:           tint-color($green, 70%) !default;
 $leaf-pale:            tint-color($leaf, 84%) !default;
 $aqua-pale:            tint-color($aqua, 84%) !default;
 $navy-pale:            tint-color($navy, 84%) !default;
