@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   @@include('_head.html')
-  <link rel="stylesheet" href="@@webRoot/assets/css/colors/purple.css">
   <link rel="preload" href="@@webRoot/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
 </head>
 <body>
@@ -14,14 +13,19 @@
           "logoAlt": "logo-purple",
           "logoBoth": true,
           "otherClassList": "w-100 d-flex ms-auto",
-          "otherSearch": true,
-          "otherInfo": true
+          "otherBtn": true,
+          "otherBtnClassList": "btn-sm btn-primary text-white rounded-pill",
+          "otherBtnText": "Tel: (905) 985-8363",
+          "otherBtnLink": "tel:9059858363"
         })
       </header>
       <!-- /header -->
       <section class="section-frame br-fix overflow-hidden">
-        <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500" data-image-src="@@webRoot/assets/img/photos/bg26.jpg">
+        <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-500">
           <div class="container pt-18 pt-lg-21 pb-17 pb-lg-19 text-center">
+            <video autoplay="autoplay" muted="muted" poster="./assets/img/photos/water-still.jpg" preload="none" style="position: absolute; top: -10rem; left: -10rem; min-width: 100%; min-height: auto; z-index: 1">
+              <source src="./assets/img/photos/hero-video.mp4" type="video/mp4">
+            </video>
             <div class="row">
               <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
                 <h2 class="h6 text-uppercase ls-xl text-white mb-5">Physiotherapy Associates of Port Perry</h2>
@@ -42,19 +46,19 @@
         <!-- /.wrapper -->
       </section>
       <!--/section -->
-      <section class="wrapper bg-white">
+      <section id="who-we-are" class="wrapper bg-transparent">
         <div class="container py-14 py-md-16">
           <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center">
-            <div class="col-lg-6 position-relative">
+            <div class="col-lg-6 d-none d-md-block position-relative">
               <div class="row gx-md-5 gy-5 align-items-center">
                 <div class="col-md-6">
                   <div class="row gx-md-5 gy-5">
                     <div class="col-md-10 offset-md-2">
-                      <figure class="rounded"><img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt=""></figure>
+                      <figure class="rounded" data-cue="fadeIn"><img src="./assets/img/photos/shoulder-manipulation-1.jpg" srcset="./assets/img/photos/shoulder-manipulation-1.jpg 2x" alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-md-12">
-                      <figure class="rounded"><img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt=""></figure>
+                      <figure class="rounded d-none d-md-block" data-cue="fadeIn" data-delay="250" ><img src="./assets/img/photos/surfer-stretching.jpg" srcset="./assets/img/photos/surfer-stretching.jpg 2x" alt=""></figure>
                     </div>
                     <!--/column -->
                   </div>
@@ -62,19 +66,19 @@
                 </div>
                 <!--/column -->
                 <div class="col-md-6">
-                  <figure class="rounded"><img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt=""></figure>
+                  <figure class="rounded d-none d-md-block" data-cue="fadeIn" data-delay="500" ><img src="./assets/img/photos/back-massage.jpg" srcset="./assets/img/photos/back-massage.jpg 2x" alt=""></figure>
                 </div>
                 <!--/column -->
               </div>
               <!--/.row -->
             </div>
             <!--/column -->
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-md-1">
               <h5>WHO WE ARE</h5>
               <h3 class="display-5 mb-5">Our goal is to provide evidence-based treatment for your optimal recovery.</h3>
               <p class="mb-7">We are a team of health care professionals in Port Perry that works together to bring you quality physiotherapy care for your injuries, sports injuries, impairments and rehabilitation.  We work collaboratively with you and your medical team to ensure optimal recovery.</p>
               <p>To ensure quality care, our therapists are fully supported in the pursuit of advancing their education. This keeps their knowledge and skill base up to date with the most recent and evidence based forms of practice.</p>
-              <a href="#" class="btn btn-primary rounded">Services</a>
+              <a href="@@webRoot/services.html" class="btn btn-primary rounded-pill">Services</a>
               <!--/.row -->
             </div>
             <!--/column -->
@@ -84,17 +88,17 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-      <section class="wrapper bg-light">
-        <div class="container py-14 py-md-16">
+      <section id="what-we-do" class="wrapper bg-transparent">
+        <div class="container py-10 py-md-16">
           <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div class="col-lg-6 position-relative order-lg-2">
-              <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
+              <div class="shape bg-dot primary rellax w-16 h-20 d-none d-md-block" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
               <div class="overlap-grid overlap-grid-2">
                 <div class="item">
-                  <figure class="rounded shadow"><img src="./assets/img/photos/about2.jpg" srcset="./assets/img/photos/about2@2x.jpg 2x" alt=""></figure>
+                  <figure class="rounded shadow" data-cue="slideInRight"><img src="./assets/img/photos/back-taping-physio.jpg" srcset="./assets/img/photos/back-taping-physio.jpg 2x" alt=""></figure>
                 </div>
                 <div class="item">
-                  <figure class="rounded shadow"><img src="./assets/img/photos/about3.jpg" srcset="./assets/img/photos/about3@2x.jpg 2x" alt=""></figure>
+                  <figure class="rounded shadow d-none d-md-block" data-cue="slideInRight"><img src="./assets/img/photos/shoulder-manipulation.jpg" srcset="./assets/img/photos/shoulder-manipulation.jpg 2x" alt=""></figure>
                 </div>
               </div>
             </div>
@@ -137,33 +141,36 @@
         <!-- /.container -->
       </section>
       <!--/section -->
-      <section class="wrapper bg-light">
-        <div class="container pb-14 pb-md-16 my-10">
+      <section class="wrapper bg-transparent">
+        <div class="container pb-12 pb-md-8 my-10">
           <div class="row">
             <div class="col-12">
-              <div class="card h-25 image-wrapper bg-full bg-image bg-overlay bg-overlay-300 text-white border-radius-lg-top" data-image-src="./assets/img/photos/bg2.jpg">
+              <div class="bg-gray shadow-lg rounded" style="position: relative; z-index: 2">
                 <div class="card-body justify-content-around p-xl-10">
-                  <div class="row align-self-center counter-wrapper my-auto gy-4 text-center">
-                    <div class="col-6 col-lg-3">
-                      <h3 class="counter counter-lg text-white">7518</h3>
-                      <p>Completed Projects</p>
+                  <div class="row align-self-center justify-content-center my-auto gy-4 text-center pb-10">
+                    <div class="col-12">
+                      <h5 class="mb-3 text-primary">WHY CHOOSE US</h5>
+                      <h4 class="fs-lg pb-7">We work collaboratively with you and your medical team to ensure optimal recovery. <span><a href="">Contact us</a></span> today!</h4>
                     </div>
                     <!--/column -->
-                    <div class="col-6 col-lg-3">
-                      <h3 class="counter counter-lg text-white">3472</h3>
-                      <p>Satisfied Customers</p>
+                    <div class="col-10 col-md-4">
+                      <h3 class="counter counter-lg text-primary">5</h3>
+                      <p>Treatment Rooms</p>
                     </div>
                     <!--/column -->
-                    <div class="col-6 col-lg-3">
-                      <h3 class="counter counter-lg text-white">2184</h3>
-                      <p>Expert Employees</p>
+                    <div class="col-10 col-md-4">
+                      <h3 class="counter counter-lg text-primary">10</h3>
+                      <p>Practitioners</p>
                     </div>
                     <!--/column -->
-                    <div class="col-6 col-lg-3">
-                      <h3 class="counter counter-lg text-white">4523</h3>
-                      <p>Awards Won</p>
+                    <div class="col-10 col-md-4">
+                      <h3 class="counter counter-lg text-primary">2500+</h3>
+                      <p>Patients helped in 2023</p>
                     </div>
                     <!--/column -->
+                    <div class="col-12 justify-content-center pt-10">
+                      <a href="@@webRoot/team.html#careers" class="btn btn-primary rounded">Become a team member</a>
+                    </div>
                   </div>
                   <!--/.row -->
                 </div>
@@ -178,17 +185,16 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-      <section class="wrapper bg-light">
-        <div class="container py-14 py-md-16 mb-10">
+      <section class="wrapper bg-transparent" style="position: relative; z-index: 2">
+        <div class="container py-8 py-lg-10">
           <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div class="col-lg-7">
               <div class="row gx-md-5 gy-5">
                 <div class="col-md-5 align-self-end">
                   <div class="card bg-pale-yellow">
                     <div class="card-body">
-                      <img src="./assets/img/icons/lineal/telephone-3.svg" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
-                      <h4>24/7 Support</h4>
-                      <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta.</p>
+                      <p class="mb-0">“Great people that do their best to help a person feel better.”</p>
+                      <h6 class="pt-2">- Al Crawford</h6>
                     </div>
                     <!--/.card-body -->
                   </div>
@@ -198,9 +204,8 @@
                 <div class="col-md-6 align-self-end">
                   <div class="card bg-pale-red">
                     <div class="card-body">
-                      <img src="./assets/img/icons/lineal/shield.svg" class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
-                      <h4>Secure Payments</h4>
-                      <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta.</p>
+                      <p class="mb-0">“When I walk into their office, it's like going home, they welcome you in the warmest way and make you feel like family. I will always be a patient here and will recommend this office to anyone. Thank you Port Perry Physio for all that you have done for my brother and I.”</p>
+                      <h6 class="pt-2">- Sarah Phillips</h6>
                     </div>
                     <!--/.card-body -->
                   </div>
@@ -208,11 +213,10 @@
                 </div>
                 <!--/column -->
                 <div class="col-md-5">
-                  <div class="card bg-pale-leaf">
+                  <div class="card bg-pale-green">
                     <div class="card-body">
-                      <img src="./assets/img/icons/lineal/cloud-computing-3.svg" class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
-                      <h4>Daily Updates</h4>
-                      <p class="mb-0">Nulla vitae elit libero, a pharetra augue.</p>
+                      <p class="mb-0">“My entire experience with Physiotherapy Association of Port Perry has been flawless. The staff is extremely efficient, friendly and helpful.”</p>
+                      <h6 class="pt-2">- Odelia Frederick</h6>
                     </div>
                     <!--/.card-body -->
                   </div>
@@ -220,11 +224,10 @@
                 </div>
                 <!--/column -->
                 <div class="col-md-6 align-self-start">
-                  <div class="card bg-pale-primary">
+                  <div class="card bg-pale-blue">
                     <div class="card-body">
-                      <img src="./assets/img/icons/lineal/analytics.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                      <h4>Market Research</h4>
-                      <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.</p>
+                      <p class="mb-0">“Stefanie and the staff are amazing would recommend this group to anyone needing a physiotherapist.”</p>
+                      <h6 class="pt-2">- Dave Brown</h6>
                     </div>
                     <!--/.card-body -->
                   </div>
@@ -235,11 +238,11 @@
               <!--/.row -->
             </div>
             <!--/column -->
-            <div class="col-lg-5">
-              <h2 class="fs-15 text-uppercase text-muted mb-3">TESTIMONIALS</h2>
-              <h3 class="display-4 mb-5">Leaders in the community, see what our community has to say about us.</h3>
+            <div class="col-lg-5 order-first order-lg-last">
+              <h2 class="fs-15 text-uppercase text-muted mb-3" data-cue="slideInUp">TESTIMONIALS</h2>
+              <h3 class="display-4 mb-5" data-cue="slideInUp">Leaders in the community, see what our community has to say about us.</h3>
               <p>At Physiotherapy Associates of Port Perry we strive to be leaders in our community in the promotion of health and a pain free active lifestyle. Our goal is to provide a friendly atmosphere for you to come achieve the best possible outcome for your injury and impairments.</p>
-              <a href="#" class="btn btn-navy rounded-pill mt-3">Read more reviews</a>
+              <a href="https://g.co/kgs/UXdWF7Q" target="_blank" class="btn btn-red rounded-pill mt-3">Read more reviews</a>
             </div>
             <!--/column -->
           </div>
@@ -248,60 +251,56 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-      <section class="wrapper bg-light">
+      <section class="wrapper bg-transparent" style="position: relative; z-index: 2">
         <div class="container py-14 py-md-16 mb-10">
           <div class="row">
             <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
               <h2 class="fs-15 text-uppercase text-muted mb-3">OUR RATES</h2>
-              <h3 class="display-6 mb-15 mb-md-6">We will always perform thorough assessments to accurately develop a treatment plan to meet your goals.</h3>
+              <h3 class="display-6 mb-md-6">We will always perform thorough assessments to accurately develop a treatment plan to meet your goals.</h3>
             </div>
             <!--/column -->
           </div>
           <!--/.row -->
           <div class="pricing-wrapper position-relative">
-            <div class="row gy-6 mt-3 mt-md-5">
+            <div class="row gy-6 mt-3 mt-md-5" data-cue="zoomIn" data-group="rates">
               <div class="col-md-6 col-lg-4">
                 <div class="pricing card text-center">
                   <div class="card-body">
-                    <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                    <h4 class="card-title">Basic Plan</h4>
+                    <h4 class="card-title">Initial Assessment</h4>
                     <div class="prices text-dark">
-                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">9</span> <span class="price-duration">mo</span></div>
+                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">110</span></div>
                       <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
                     </div>
                     <!--/.prices -->
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                      <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
-                      <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly <strong>Reports</strong> </span></li>
-                      <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span><strong>60</strong> minutes </span></li>
+                      <li><i class="uil uil-check"></i><span>subjective compaint </span></li>
+                      <li><i class="uil uil-check"></i><span>detailed physical assessment </span></li>
+                      <li><i class="uil uil-check"></i><span> personalised treatment plan</span></li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                    <a href="@@webRoot/contact.html" class="btn btn-lemon rounded">Contact us to book</a>
                   </div>
                   <!--/.card-body -->
                 </div>
                 <!--/.pricing -->
               </div>
               <!--/column -->
-              <div class="col-md-6 col-lg-4 popular">
+              <div class="col-md-6 col-lg-4">
                 <div class="pricing card text-center">
                   <div class="card-body">
-                    <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                    <h4 class="card-title">Premium Plan</h4>
+                    <h4 class="card-title">Follow-up</h4>
                     <div class="prices text-dark">
-                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
+                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">80</span></div>
                       <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
                     </div>
                     <!--/.prices -->
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                      <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span><strong>30</strong> minutes </span></li>
+                      <li><i class="uil uil-check"></i><span>reevaluation</span></li>
+                      <li><i class="uil uil-check"></i><span>treament </span></li>
+                      <li><i class="uil uil-check"></i><span> education</span></li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                    <a href="@@webRoot/contact.html" class="btn btn-lemon rounded">Contact us to book</a>
                   </div>
                   <!--/.card-body -->
                 </div>
@@ -311,21 +310,19 @@
               <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
                 <div class="pricing card text-center">
                   <div class="card-body">
-                    <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                    <h4 class="card-title">Corporate Plan</h4>
+                    <h4 class="card-title">Pelvic Health Physio</h4>
                     <div class="prices text-dark">
-                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">90</span> </div>
                       <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                     </div>
                     <!--/.prices -->
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                      <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span><strong>60</strong> minutes </span></li>
+                      <li><i class="uil uil-check"></i><span>subjective compaint </span></li>
+                      <li><i class="uil uil-check"></i><span>detailed physical assessment </span></li>
+                      <li><i class="uil uil-check"></i><span> personalised treatment plan</span></li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                    <a href="@@webRoot/contact.html" class="btn btn-lemon rounded">Contact us to book</a>
                   </div>
                   <!--/.card-body -->
                 </div>
@@ -333,7 +330,7 @@
               </div>
               <!--/column -->
               <div class="col-12">
-                <a href="#" class="btn btn-navy rounded-pill mt-3">Our full rates list</a>
+                <a href="@@webRoot/services.html#rates" class="btn btn-yellow rounded mt-3">Our full rates list</a>
               </div>
             </div>
             <!--/.row -->
@@ -343,11 +340,12 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
+       <img class="d-none d-lg-block" src="@@webRoot/assets/img/svg/spine.svg" alt="" style="position: absolute; bottom: -213rem; right: 0; z-index: 0;">
     </div>
     <!-- /.content-wrapper -->
-    <footer class="bg-dark section-frame">
+    <footer class="bg-primary section-frame">
       <div class="container pb-13 pb-md-15 pt-10">
-        <div class="text-inverse mx-md-5 mt-n15 mt-lg-0">
+        <div class="text-inverse mx-md-5 mt-lg-0">
           @@include('_footer-widgets.html', {
             "lightText": true
           })
