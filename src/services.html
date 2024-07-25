@@ -9,20 +9,20 @@
 			@@include('_navbar.html', {
 				"classList": "center-nav transparent navbar-light",
 				"otherClassList": "w-100 d-flex ms-auto",
-				"otherLanguageSelect": true,
+				"otherLanguageSelect": false,
 				"otherBtn": true,
-				"otherBtnClassList": "btn-sm btn-primary rounded-pill",
-				"otherBtnText": "Contact",
-				"otherBtnLink": "@@webRoot/contact.html"
+				"otherBtnClassList": "btn-sm btn-primary text-white rounded-pill",
+				"otherBtnText": "Tel: (905) 985-8363",
+          "otherBtnLink": "tel:9059858363"
 			})
 		</header>
 		<!-- /header -->
-		<section class="wrapper bg-soft-primary angled lower-start">
-			<div class="container pt-12 pb-14 pt-md-18 pb-md-15">
+		<section class="wrapper image-wrapper bg-cover bg-overlay bg-image text-white pt-20" data-image-src="@@webRoot/assets/img/photos/team-hiking-twilight.jpg">
+			<div class="container pt-12 pb-14 pt-md-10 pb-md-15">
 				<div class="row">
-					<div class="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-11">
-						<h1 class="display-1 mb-3">Our Services</h1>
-						<p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
+					<div class="col-md-8 col-lg-7 col-xl-6 mb-11">
+						<h1 class="display-1 mb-3 text-white">WE'RE HERE FOR YOU</h1>
+						<h5 class="text-white pb-20">Rehabilitation is a collaboration beteween your pracittioner and you.<span class="underline"> Let us be part of your team.</span></h5>
 					</div>
 					<!-- /column -->
 				</div>
@@ -31,95 +31,85 @@
 			<!-- /.container -->
 		</section>
 		<!-- /section -->
-		<section class="wrapper bg-light">
+		<section class="wrapper bg-light angled upper-end">
 			<div class="container pb-md-8">
-				<div class="row justify-content-between gy-5 mt-n15 mb-14 mb-md-17">
-          <div class="col-md-6 col-xl-2">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="@@webRoot/assets/img/icons/solid/edit.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-fuchsia mb-3" alt="" />
-                <h4>Content Marketing</h4>
-                <a href="#" class="more hover link-fuchsia">Learn More</a>
+				<div class="gy-5 mt-n15 mb-14 mb-md-17">
+          <div class="d-flex flex-row justify-content-between">
+            <div class="flex-even card shadow-lg mx-1 mt-n15" data-cue="slideInUp">
+              <div class="card-body text-center">
+                <img src="@@webRoot/assets/img/svg/joint.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-fuchsia mb-3" alt="" />
+                <h6>Physiotherapy</h6>
+                <a href="#physio" class="more hover link-primary">Learn More</a>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+            <div class="flex-even card shadow-lg mx-1 mt-n15" data-cue="slideInUp" data-delay="250">
+              <div class="card-body text-center">
+                <img src="@@webRoot/assets/img/svg/pelvic-health.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-violet mb-3" alt="" />
+                <h6>Pelvic Health Physio</h6>
+                <a href="#pelvic-physio" class="more hover link-green">Learn More</a>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+            <div class="flex-even card shadow-lg mx-1 mt-n15" data-cue="slideInUp" data-delay="500">
+              <div class="card-body text-center">
+                <img src="@@webRoot/assets/img/svg/ultrasound-wand.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-orange mb-3" alt="" />
+                <h6>Shockwave Therapy</h6>
+                <a href="#shockwave" class="more hover link-red">Learn More</a>
+              </div>
+              <!--/.card-body -->
+            <!--/.card -->
+            </div>
+            <!--/.card -->
+            <div class="flex-even card shadow-lg mx-1 mt-n15" data-cue="slideInUp" data-delay="750">
+              <div class="card-body text-center">
+                <img src="@@webRoot/assets/img/svg/massage-hands.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
+                <h6>Massage Therapy</h6>
+                <a href="#physio" class="more hover link-yellow">Learn More</a>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+            <div class="flex-even card shadow-lg mx-1 mt-n15" data-cue="slideInUp" data-delay="750">
+              <div class="card-body text-center">
+                <img src="@@webRoot/assets/img/svg/acupuncture.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
+                <h6>Acupuncture/IMS</h6>
+                <a href="#physio" class="more hover link-primary">Learn More</a>
               </div>
               <!--/.card-body -->
             </div>
             <!--/.card -->
           </div>
-          <!--/column -->
-          <div class="col-md-6 col-xl-2">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="@@webRoot/assets/img/icons/solid/team.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-violet mb-3" alt="" />
-                <h4>Social Engagemen</h4>
-                <a href="#" class="more hover link-violet">Learn More</a>
-              </div>
-              <!--/.card-body -->
-            </div>
-            <!--/.card -->
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-xl-2">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="@@webRoot/assets/img/icons/solid/lamp.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-orange mb-3" alt="" />
-                <h4>Identity & Branding</h4>
-                <a href="#" class="more hover link-orange">Learn More</a>
-              </div>
-              <!--/.card-body -->
-            </div>
-            <!--/.card -->
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-xl-2">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="@@webRoot/assets/img/icons/solid/delivery-box.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
-                <h4>Product Design</h4>
-                <a href="#" class="more hover link-green">Learn More</a>
-              </div>
-              <!--/.card-body -->
-            </div>
-            <!--/.card -->
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-xl-2">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <img src="@@webRoot/assets/img/icons/solid/delivery-box.svg" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
-                <h4>Product Design</h4>
-                <a href="#" class="more hover link-green">Learn More</a>
-              </div>
-              <!--/.card-body -->
-            </div>
-            <!--/.card -->
-          </div>
-          <!--/column -->
         </div>
 				<!-- /.row -->
 			</div>
 			<!-- /.container -->
 		</section>
 		<!-- /section -->
-    <section class="wrapper bg-light">
+    <section id="physio" class="wrapper bg-light">
       <div class="container pt-7 pb-14 pt-md-5 pb-md-16">
-        <div class="card bg-soft-primary rounded-4">
+        <div class="card bg-pale-primary rounded-4">
           <div class="card-body p-md-10 p-xl-11">
             <div class="row gx-lg-8 gx-xl-12 gy-10">
               <div class="col-lg-6">
-                <h3 class="display-4 mb-4">Frequently Asked Questions</h3>
-                <p class="lead fs-lg mb-0">If you don't see an answer to your question, you can send us an email from our contact form.</p>
+                <h5>PHYSIOTHERAPY</h5>
+                <h3 class="display-4 mb-4">Prevention and rehabilitation</h3>
+                <p class="mb-0">Our therapist will perform a comprehensive examination that consists of asking questions about your injury, symptoms, and general health, along with a hands on assessment of your injury or impairment(s). From there, we will make a clinical impression as to what we believe is the cause of your impairment(s). We will then educate you as to what we believe is happening as well as design a treatment plan that we feel will best suite your goals. Treatments can include many different methods as listed below.</p>
+                <a href="#" class="btn btn-primary rounded-pill mt-5">Book an assessment</a>
               </div>
               <!--/column -->
-              <div class="col-lg-6">
-                <div class="accordion accordion-wrapper" id="accordionExample">
+              <div class="col-lg-5 offset-1">
+                <div class="mt-15 accordion accordion-wrapper" id="accordionExample">
                   <div class="card plain accordion-item">
                     <div class="card-header" id="headingOne">
-                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How do I get my subscription receipt?</button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Acupuncture</button>
                     </div>
                     <!--/.card-header -->
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="card-body">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p>Acupuncture is a treatment method used to encourage natural healing, reduce or relieve pain and improves function of affected areas of the body. Acupuncture involves the insertion of very fine disposable needles through the skin and tissues at specific points on the body. It works by stimulating the body to produce natural endrophins.</p>
                       </div>
                       <!--/.card-body -->
                     </div>
@@ -128,12 +118,13 @@
                   <!--/.accordion-item -->
                   <div class="card plain accordion-item">
                     <div class="card-header" id="headingTwo">
-                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Are there any discounts for people in need?</button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">IMS (Intramuscular Stimulation)</button>
                     </div>
                     <!--/.card-header -->
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div class="card-body">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p>Intramuscular Stimulation (IMS) is a total system for the diagnosis and treatment of chronic myofascial pain syndromes (long standing pain when there is no obvious sign of injury or inflammation).  This type of pain often referred to as “neuropathic” pain  is typically due to a nerve malfunction after a minor irritation.   The nerves  become  extremely sensitive and the result is normal signals being exaggerated and mistaken by the brain as pain.  These unhealthy nerves can be secondary to common conditions such as spinal arthritis or muscle injury.</p>
+                        <p>IMS treatment uses acupuncture needles to release shortened areas of muscles caused by the over stimulation of supersensitive nerves. If the muscle, and its supplying nerve, are neuropathic the tight muscle will grab the needle producing a cramping sensation. In turn, a receptor in the muscle will initiate a reflex relaxation of the muscle and all other muscles supplied by the same nerve. The most notable side affect of treatment is approximately 24 hours of minor muscle discomfort. The benefits of IMS are cumulative and each treatment with IMS stimulates a certain amount of healing.</p>
                       </div>
                       <!--/.card-body -->
                     </div>
@@ -142,12 +133,12 @@
                   <!--/.accordion-item -->
                   <div class="card plain accordion-item">
                     <div class="card-header" id="headingThree">
-                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Do you offer a free trial edit?</button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Shockwave Therapy</button>
                     </div>
                     <!--/.card-header -->
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div class="card-body">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p>When introduced into the tissue, shock waves and pressure waves have effects on a cellular level that are beneficial for healing. Increased blood flow and formation of new blood vessels create an improved environment for tissue repair. It has further been shown that application of shock waves influences the body’s pain regulating mechanisms resulting in local pain relief.</p>
                       </div>
                       <!--/.card-body -->
                     </div>
@@ -156,12 +147,24 @@
                   <!--/.accordion-item -->
                   <div class="card plain accordion-item">
                     <div class="card-header" id="headingFour">
-                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How do I reset my Account password?</button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Other treatment options</button>
                     </div>
                     <!--/.card-header -->
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                       <div class="card-body">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <ul>
+                          <li>Manual therapy and joint manipulations – hands on interventions to reduce pain and stiffness</li>
+                          <li>Strengthening, stretching and range of motion exercises</li>
+                          <li>Individualized home exercise program</li>
+                          <li>Therapeutic taping</li>
+                          <li>Ultrasound</li>
+                          <li>Interferential Current (IFC)</li>
+                          <li>Intermuscular Stimulation</li>
+                          <li>Education regarding your condition</li>
+                          <li>Electrical Muscular Stimulation for strengthening</li>
+                          <li>Laser therapy</li>
+                          <li>Mechanical spinal traction</li>
+                        </ul>
                       </div>
                       <!--/.card-body -->
                     </div>
@@ -182,12 +185,11 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-		<section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="@@webRoot/assets/img/photos/bg1.jpg">
+		<section class="wrapper image-wrapper bg-image" data-image-src="@@webRoot/assets/img/photos/triumphant-stance.jpg">
 			<div class="container py-18 text-center">
 				<div class="row">
 					<div class="col-lg-10 col-xl-10 col-xxl-8 mx-auto">
-						<a href="https://www.youtube.com/watch?v=26TbMXXOe0I" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5" data-glightbox><i class="icn-caret-right"></i></a>
-						<h2 class="display-4 px-lg-10 px-xl-13 px-xxl-10 mb-10 text-white">Find out everything you need to know about creating a business process model.</h2>
+            <div style="min-height: 5rem;"></div>
 					</div>
 					<!--/column -->
 				</div>
@@ -196,14 +198,16 @@
 			<!-- /.container -->
 		</section>
 		<!-- /section -->
-		<section class="wrapper bg-light">
+		<section id="pelvic-physio" class="wrapper bg-light angled upper-end">
       <div class="container pt-14 pt-md-16">
-        <div class="card bg-soft-primary rounded-4">
+        <div class="card bg-pale-yellow rounded-4">
           <div class="card-body p-md-10 p-xl-11">
             <div class="row gx-lg-8 gx-xl-12 gy-10">
               <div class="col-lg-10">
-                <h3 class="mb-4">Frequently Asked Questions</h3>
-                <p class="lead fs-lg mb-0">If you don't see an answer to your question, you can send us an email from our contact form.</p>
+                <h5>PELVIC HEALTH PHYSIOTHERAPY</h5>
+                <h3 class="mb-4">Compassionate pelvic health care in a supportive environment</h3>
+                <p>It can take time, as well as a trusting relationship with your physiotherapist, to determine the many symptoms and contributing factors of pelvic floor dysfunction.  Our appointments and space are structured so that you have the privacy and comfort needed for your assessments and treatments.</p>
+                <p>Pelvic health physiotherapy involves internal and external assessment and treatment of the pelvic floor muscles.  These muscles support pelvic organs such as the bladder, colon and uterus.  Determining whether the pelvic floor is hypertonic (tight/ poor relaxation) or hypotonic (weak) is important and essential before deciding on the course of treatment.</p>
                 <div class="accordion accordion-wrapper pt-8" id="accordionExample">
                   <div class="card plain accordion-item">
                     <div class="card-header" id="headingOne">
@@ -212,7 +216,21 @@
                     <!--/.card-header -->
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="card-body">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p><strong>*Now offering custom Pessary Fittings</strong></p>
+                        <p>Pelvic health physiotherapy involves internal and external assessment and treatment of the pelvic floor muscles.  These muscles support pelvic organs such as the bladder, colon and uterus.  Determining whether the pelvic floor is hypertonic (tight/ poor relaxation) or hypotonic (weak) is important and essential before deciding on the course of treatment.</p>
+                        <ul>Pelvic Health Physiotherapy can be divided into several areas:
+                          <li>Incontinence: Stress, Urge, and Mixed</li>
+                          <li>Pelvic pain: Urge incontinence, Dyspareunia – pain with intercourse, Interstitial Cystitis (Painful Bladder Syndrome), Chronic Prostatitis, Pudendal Neuralgia, Vulvodynia, Vaginismus</li>
+                          <li>Constipation</li>
+                          <li>Prolapse</li>
+                          <li>Sacroiliac Joint Dysfunction</li>
+                          <li>Pelvic floor dysfunction in pregnancy</li>
+                        </ul>
+                        <p>A manual examination of the pelvic floor (vaginal and / or rectal) is required to assess the condition of the tissues (skin, nerve, fascia, muscle) to determine the best type of treatment. The determination of whether the pelvic floor is hypertonic (tight/ poor relaxation) or hypotonic (weak) is important.</p>
+                        <p>A stiff, poorly relaxed pelvic floor is often associated with pelvic pain, constipation and some incontinence conditions (urge incontinence). The treatment often involves techniques (manual & exercise) to assist in relaxing these tissues before any strengthening is initiated.</p>
+                        <p>A weak pelvic floor is often associated with prolapse and most incontinence conditions. Pelvic floor strengthening is required to resolve/ optimize these conditions.</p>
+                        <p>Research has indicated that pelvic floor muscle training is the first line of treatment recommended for stress, urge and mixed incontinence in women. Incontinence is not a normal part of ageing nor is it normal to have urinary leakage after childbirth. Urinary incontinence is a treatable condition.</p>
+                        <p>Physiotherapy Associates of Port Perry utilizes Neurotrac technology, as required, to assess the amount and quality of muscle activity, provide biofeedback and/ or muscle stimulation to the pelvic floor muscles.</p>
                       </div>
                       <!--/.card-body -->
                     </div>
@@ -233,24 +251,36 @@
       <!-- /.container -->
       <div class="container pb-12 pt-5 pb-md-15">
 				<div class="row justify-content-around">
-          <div class="col-md-8 col-lg-6 col-xl-6 mb-11">
-            <div class="card bg-soft-primary rounded-4 px-5 py-5 mb-7">
-              <h3 class="mb-3">Our Services</h3>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
+          <div id="massage" class="col-md-8 col-lg-6 col-xl-6 mb-11">
+            <div class="card bg-pale-red rounded-4 px-5 py-5 mb-9">
+              <h5>MASSAGE THERAPY</h5>
+              <h3 class="mb-3">SOFT TISSUE AND JOINT TREATMENT</h3>
+              <p>Massage Therapy is the assessment and treatment of the soft tissues & joints of the body by manipulation in order to develop, maintain, rehabilitate or augment physical function, or relieve pain (Massage Therapy Act, 1991). When you come in for a massage therapy appointment your therapist will go over a complete health history, ask questions related to you condition(s), and identify your treatment goals. They may use specific orthopedic assessments to develop a clinical impression of your impairment(s) before developing a treatment plan and providing you with a massage. Home exercises may also be recommended to help assist you in your healing.</p>
             </div>
-            <div class="card bg-soft-primary rounded-4 px-5 py-5">
-              <h3 class="mb-3">Our Services</h3>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
+            <div class="card bg-pale-primary rounded-4 px-5 py-10" data-cue="fadeIn" data-delay="500">
+              <h2 class=" display-3 mb-3"><span class="underline"><a href="@@webRoot/contact.html">CONTACT US </a></span>TODAY TO BOOK YOUR APPOINTMENT AND BEGIN YOUR RECOVERY</h2>
             </div>
 					</div>
 					<!-- /column -->
-          <div class="col-md-8 col-lg-6 col-xl-6 mb-11">
-            <div class="card bg-soft-primary rounded-4 px-5 py-5">
-              <h3 class="mb-3">Our Services</h3>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
-              <p class="lead">We are a creative company that focuses on establishing <span class="underline">long-term relationships</span> with customers.</p>
+          <div id="shockwave" class="col-md-8 col-lg-6 col-xl-6 mb-11">
+            <div class="card bg-pale-green rounded-4 px-5 py-5">
+              <h5>SHOCKWAVE THERAPY</h5>
+              <h3 class="mb-3">Radial Pressure Wave therapy/ShockWave</h3>
+              <p>Radial Pressure Waves or RPW are acoustic waves transmitted into the body via a hand piece and move outward from the point of contact.  The transmitter and hand piece are moved throughout treatment to cover the entire pain region.</p>
+              <p>When introduced into the tissue, shock waves and pressure waves have been shown to affect the body on a cellular level and are beneficial for healing. Increased blood flow and formation of new blood vessels create an improved environment for tissue repair. It has further been shown that application of shock waves influences the body’s pain regulating mechanisms resulting in local pain relief.</p>
+              <p class="mb-0"><strong>Shockwave Therapy has been shown to improve symptoms of the following conditions:</strong></p>
+              <ul>
+                <li>Myofascial Trigger Points - localised tender or painful area</li>
+                <li>Plantar Fasciitis - inflamed tendon across the sole of the foot</li>
+                <li>Chronic Tendonopathies - swollen, painful tendons ex.
+                  <ul>
+                    <li>golfer’s/tennis elbow</li>
+                    <li>achilles tendinopathy</li>
+                    <li>shoulder/rotator cuff tendinopathy</li>
+                    <li>plantar fasciitis</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
 					</div>
 					<!-- /column -->
@@ -260,7 +290,7 @@
 			<!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-light">
+    <section id="rates" class="wrapper bg-light">
       <div class="container py-md-2 mb-20">
         <h3 class="mb-8">Our Rates</h3>
         <!--/.row -->
@@ -268,16 +298,64 @@
           <table class="table text-center">
             <tbody>
               <tr>
-                <td class="option text-start">Project</td>
-                <td>1</td>
+                <td class="option text-primary text-start">Physiotherapy Initial Assessment (up to 60 minutes)</td>
+                <td></td>
+                <td>$110</td>
               </tr>
               <tr>
-                <td class="option text-start">API Access</td>
-                <td>100K</td>
+                <td class="option text-primary text-start">Physiotherapy Follow-up Treatment (up to 30 minutes)</td>
+                <td></td>
+                <td>$80</td>
               </tr>
               <tr>
-                <td class="option text-start">Storage</td>
-                <td>100MB</td>
+                <td class="option text-primary text-start">Physiotherapy Follow-up Treatment (up to 60 minutes)</td>
+                <td></td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td class="option text-primary text-start">Physiotherapy Pelvic Health Assessment</td>
+                <td></td>
+                <td>$130</td>
+              </tr>
+              <tr>
+                <td class="option text-primary text-start">Physiotherapy Pelvic Health Treatment</td>
+                <td></td>
+                <td>$90</td>
+              </tr>
+              <tr>
+                <td class="option text-primary text-start">Physiotherapy Pelvic Health Pessary Fitting</td>
+                <td></td>
+                <td>$130</td>
+              </tr>
+              <tr>
+                <td class="option text-primary text-start">Registered Massage Therapy Initial Assessment and Treatment</td>
+                <td></td>
+                <td>$95</td>
+              </tr>
+              <tr>
+                <td class="option text-primary text-start">Registered Massage Therapy Treatment</td>
+                <td class="option text-start"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="option text-start"></td>
+                <td class="option text-start">30 minutes</td>
+                <td>$75</td>
+              </tr>
+              <tr>
+                <td class="option text-start"></td>
+                <td class="option text-start">45 minutes</td>
+                <td>$90</td>
+              </tr>
+              <tr>
+                <td class="option text-start"></td>
+                <td class="option text-start">60 minutes</td>
+                <td>$130</td>
+              </tr>
+              <tr>
+                <td class="option text-start"></td>
+                <td class="option text-start">90 minutes</td>
+                <td>$100</td>
               </tr>
             </tbody>
           </table>
@@ -289,7 +367,7 @@
     <!-- /section -->
 	</div>
 	<!-- /.content-wrapper -->
-	<footer class="bg-dark text-inverse">
+	<footer class="bg-primary text-inverse">
 	  <div class="container py-13 py-md-15">
 	    @@include('_footer-widgets.html', {
 				"lightText": true
